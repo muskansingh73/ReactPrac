@@ -1,6 +1,7 @@
 import './App.css';
 // import Avatar from './Avatar';
-import PackingList from './PackingList';
+// import PackingList from './PackingList';
+import TodoTernary from './ToDoTernary';
 function App() {
   
   return (
@@ -9,8 +10,8 @@ function App() {
       height = "100px"
       width = "100px"
       person = {{name:"Muskan Singh"}}       /> */}
-      <PackingList />
-
+      {/* <PackingList /> */}
+      <TodoTernary />
     </div>
   );
 }
