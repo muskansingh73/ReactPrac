@@ -1,6 +1,7 @@
 import './App.css';
 // import Avatar from './Avatar';
 // import PackingList from './PackingList';
+import ButtonClikable from './EventHandling/ButtonClickable';
 import TodoTernary from './ToDoTernary';
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
       person = {{name:"Muskan Singh"}}       /> */}
       {/* <PackingList /> */}
       <TodoTernary />
+      <ButtonClikable />
     </div>
   );
 }
