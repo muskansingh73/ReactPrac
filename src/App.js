@@ -1,13 +1,16 @@
 import './App.css';
-import Avatar from './Avatar';
+// import Avatar from './Avatar';
+import PackingList from './PackingList';
 function App() {
   
   return (
     <div className="App">
-      <Avatar 
+      {/* <Avatar 
       height = "100px"
       width = "100px"
-      person = {{name:"Muskan Singh"}}       />
+      person = {{name:"Muskan Singh"}}       /> */}
+      <PackingList />
+
     </div>
   );
 }
