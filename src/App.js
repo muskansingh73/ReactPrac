@@ -1,8 +1,8 @@
 import './App.css';
 // import Avatar from './Avatar';
 // import PackingList from './PackingList';
-import ButtonClikable from './EventHandling/ButtonClickable';
-import TodoTernary from './ToDoTernary';
+import Counter from './States/Counter';
+import Timer from './States/Timer';
 function App() {
   
   return (
@@ -12,8 +12,11 @@ function App() {
       width = "100px"
       person = {{name:"Muskan Singh"}}       /> */}
       {/* <PackingList /> */}
-      <TodoTernary />
-      <ButtonClikable />
+      {/* <TodoTernary />
+      <ButtonClikable /> */}
+
+      <Timer />
+      <Counter />
     </div>
   );
 }
