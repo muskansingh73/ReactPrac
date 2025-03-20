@@ -1,3 +1,5 @@
+//USEEFFECT HOOK
+
 import { useEffect, useState } from "react";
 
 function Timer() {

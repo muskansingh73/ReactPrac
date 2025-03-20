@@ -3,6 +3,7 @@ import './App.css';
 // import PackingList from './PackingList';
 import Counter from './States/Counter';
 import Timer from './States/Timer';
+import ThemeWindow from './States/UseContext/ThemeWindow';
 function App() {
   
   return (
@@ -17,6 +18,7 @@ function App() {
 
       <Timer />
       <Counter />
+      <ThemeWindow />
     </div>
   );
 }
