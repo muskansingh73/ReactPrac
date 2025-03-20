@@ -1,6 +1,6 @@
+import { useState } from "react";
 import ThemeButton from "./ThemeButton";
 import ThemeContext from "./ThemeContext";
-import { useState } from "react";
 
 
 function ThemeWindow(){
@@ -8,10 +8,12 @@ function ThemeWindow(){
 
     return(
         <ThemeContext.Provider value={theme}>
-            <div style={{background : theme === "light" ? "white" : "black", color:theme === "light" ? "black" : "white", padding : "50px"}}>
-                <h2>Current Theme : {theme}</h2><br /> <br />
-                <button onClick={() => setTheme(theme === "light" ? "light" : "dark")}>Toggle Theme</button>
-                 <ThemeButton/>
+          
+
+            <div style={{background : theme === "light" ? "white" : "black", color: theme === "light" ? "black" : "white", padding : "50px"}}>
+                <h2>Current Theme: {theme}</h2><br /> <br />
+                <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>Toggle Theme</button>
+                <ThemeButton />
             </div>
             </ThemeContext.Provider>
 
